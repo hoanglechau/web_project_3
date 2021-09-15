@@ -138,7 +138,7 @@
     .cover {
         max-width: 768px;
         max-height: 746px;
-        background-image: url("../../images/cover.png");
+        background-image: url("../../images/__background_768.png");
         margin: 88px auto 0;
     }
 
@@ -387,7 +387,7 @@
     .cover {
         width: 320px;
         height: 254px;
-        background-image: url("../../images/cover_320.png");
+        background-image: url("../../images/__background_320.png");
         margin: 64px auto 0;
     }
 
