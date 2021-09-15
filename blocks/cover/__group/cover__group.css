@@ -1,0 +1,10 @@
+.cover__group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 656px;
+    max-height: 254px;
+    margin: 243px auto 243px;
+}

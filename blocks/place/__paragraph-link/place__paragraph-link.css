@@ -1,0 +1,10 @@
+.place__paragraph-link {
+    max-width: 208px;
+    max-height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+}

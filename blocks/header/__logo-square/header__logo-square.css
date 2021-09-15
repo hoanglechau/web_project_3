@@ -1,0 +1,8 @@
+.header__logo-square {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 34px;
+    background: #0278FE;
+    border-radius: 2px;
+}
