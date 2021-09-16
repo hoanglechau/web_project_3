@@ -6,3 +6,7 @@
     line-height: 22px;
     margin: 8px 0 0;
 }
+
+.place__link span {
+    display: block;
+}

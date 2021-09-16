@@ -8,3 +8,7 @@
     text-align: center;
     margin: 32px auto 0;
 }
+
+.cover__subtitle span {
+    display: block;
+}
