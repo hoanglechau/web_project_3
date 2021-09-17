@@ -4,9 +4,8 @@
     justify-content: center;
     align-items: center;
     max-width: 1184px;
-    max-height: 740px;
     margin: 92px auto 0;
-    background-image: url("../../images/__background.jpg");
+    background-image: url("../../images/__background.png");
     background-size: cover;
 }
 
@@ -30,4 +29,27 @@
     left: 0;
     background-color: #2A2C2F;
     opacity: 0.8;
+    transition: 0.8s;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover {
+        max-width: 92.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 100%;
+        background-image: url("../../images/__background_768.png");
+        margin: 88px auto 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 100%;
+        background-image: url("../../images/__background_320.png");
+        margin: 64px auto 0;
+    }
 }

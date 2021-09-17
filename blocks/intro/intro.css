@@ -3,6 +3,25 @@
     display: flex;
     flex-direction: column;
     max-width: 785px;
-    max-height: 490px;
     margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .intro {
+        max-width: 61.32%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 93.75%;
+        margin: 88px auto 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        max-width: 90%;
+        margin: 64px auto 0;
+    }
 }

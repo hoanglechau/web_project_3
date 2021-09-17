@@ -1,12 +1,30 @@
 .place__link {
-    max-width: 456px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122.22%;
     margin: 8px 0 0;
 }
 
 .place__link span {
     display: block;
 }
+
+@media screen and (max-width: 1280px) {
+    .place__link {
+        font-size: 1.40vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__link {
+        font-size: 2.34vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__link {
+        font-size: 5.62vw;
+    }
+}
+

@@ -2,8 +2,26 @@
     display: flex;
     justify-content: center;
     position: relative;
-    max-height: 72px;
     max-width: 271px;
     margin: 0 auto 0;
     padding-top: 34px;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__logo {
+        max-width: 21.17%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        max-width: 35.28%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        padding-top: 20px;
+        max-width: 62.5%;
+    }
 }

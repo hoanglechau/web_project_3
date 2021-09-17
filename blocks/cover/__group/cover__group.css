@@ -5,6 +5,25 @@
     align-items: center;
     flex-direction: column;
     max-width: 656px;
-    max-height: 254px;
     margin: 243px auto 243px;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__group {
+        max-width: 51.25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__group {
+        max-width: 85.41%;
+        margin: 246px auto 246px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__group {
+        max-width: 90%;
+        margin: 46px auto 45px;
+    }
 }
