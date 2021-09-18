@@ -3,11 +3,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 122.22%;
-    margin: 8px 0 0;
-}
-
-.place__link span {
-    display: block;
+    margin: 0;
 }
 
 @media screen and (max-width: 1280px) {
@@ -22,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .place__link {
         font-size: 5.62vw;
     }

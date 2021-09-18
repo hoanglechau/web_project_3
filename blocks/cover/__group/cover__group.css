@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .cover__group {
         max-width: 90%;
         margin: 46px auto 45px;

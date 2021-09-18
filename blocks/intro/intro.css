@@ -2,13 +2,14 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    max-width: 785px;
+    align-items: flex-start;
+    max-width: 984px;
     margin: 92px auto 0;
 }
 
 @media screen and (max-width: 1280px) {
     .intro {
-        max-width: 61.32%;
+        max-width: 76.875%;
     }
 }
 
@@ -19,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .intro {
         max-width: 90%;
         margin: 64px auto 0;

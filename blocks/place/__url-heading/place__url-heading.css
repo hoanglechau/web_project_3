@@ -6,7 +6,7 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #AAAAAA;
-    margin: 0;
+    margin: 0 0 8px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .place__url-heading {
         font-size: 3.75vw;
         line-height: 1;

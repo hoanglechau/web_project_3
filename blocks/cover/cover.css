@@ -7,6 +7,7 @@
     margin: 92px auto 0;
     background-image: url("../../images/__background.png");
     background-size: cover;
+    background-position: center;
 }
 
 .cover::before {
@@ -21,13 +22,6 @@
 }
 
 .cover:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #2A2C2F;
     opacity: 0.8;
     transition: 0.8s;
 }
@@ -41,15 +35,12 @@
 @media screen and (max-width: 768px) {
     .cover {
         max-width: 100%;
-        background-image: url("../../images/__background_768.png");
         margin: 88px auto 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .cover {
-        max-width: 100%;
-        background-image: url("../../images/__background_320.png");
         margin: 64px auto 0;
     }
 }

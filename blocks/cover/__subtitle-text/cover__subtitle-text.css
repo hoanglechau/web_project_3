@@ -1,29 +1,27 @@
-.place__paragraph {
+.cover__subtitle-text {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 163%;
-    margin: 0 0 25px;
-}
-
-.place__paragraph:last-child {
+    line-height: 122.22%;
     margin: 0;
 }
 
 @media screen and (max-width: 1280px) {
-    .place__paragraph {
+    .cover__subtitle-text {
         font-size: 1.40vw;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
-        font-size: 2.08vw;
+    .cover__subtitle-text {
+        font-size: 2.34vw;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .place__paragraph {
-        font-size: 5vw;
+    .cover__subtitle-text {
+        font-size: 4.37vw;
+        line-height: 114.28%;
     }
 }
+

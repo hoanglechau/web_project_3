@@ -10,20 +10,18 @@
 @media screen and (max-width: 1280px) {
     .intro__text-quote {
         font-size: 1.875vw;
-        max-width: 87.89%;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro__text-quote {
         font-size: 3.125vw;
-        max-width: 100%;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .intro__text-quote {
-        max-width: 100%;
         font-size: 7.5vw;
         line-height: 1.25;
     }

@@ -3,12 +3,12 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 114.28%;
     margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .footer__copyright {
-        line-height: 14px;
+        line-height: 1;
     }
 }
