@@ -1,40 +1,41 @@
 .place {
-    position: relative;
-    max-width: 984px;
-    height: auto;
-    margin: 0 0 80px;
-    display: grid;
-    grid-template-columns: 460px 1fr;
-    grid-gap: 48px 40px;
-    grid-template-areas:
-            "title website"
-            "image paragraphs"
-            "link paragraphs";
+	position: relative;
+	max-width: 984px;
+	height: auto;
+	margin: 0 0 80px;
+	display: grid;
+	grid-template-columns: 460px 1fr;
+	grid-template-rows: auto auto 1fr;
+	grid-gap: 48px 40px;
+	grid-template-areas:
+		'title website'
+		'image paragraphs'
+		'link paragraphs';
 }
 
 .place:last-child {
-    margin: 0 0 0;
+	margin: 0 0 0;
 }
 
 @media screen and (max-width: 1280px) {
-    .place {
-        max-width: 99.69%;
-        grid-template-columns: 46.74% 1fr;
-    }
+	.place {
+		max-width: 99.69%;
+		grid-template-columns: 46.74% 1fr;
+	}
 }
 
 @media screen and (max-width: 768px) {
-    .place {
-        max-width: 100%;
-        margin: 0 0 72px;
-        grid-template-columns: 47.22% 1fr;
-        grid-gap: 48px 28px;
-    }
+	.place {
+		max-width: 100%;
+		margin: 0 0 72px;
+		grid-template-columns: 47.22% 1fr;
+		grid-gap: 48px 28px;
+	}
 }
 
 @media screen and (max-width: 568px) {
-    .place {
-        display: block;
-        margin: 0 0 48px;
-    }
+	.place {
+		display: block;
+		margin: 0 0 48px;
+	}
 }
